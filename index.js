@@ -3,7 +3,7 @@ const app = express();
 const { default: mongoose } = require("mongoose");
 
 mongoose.connect(
-  "mongodb+srv://darshana:darshana@cluster0.b4ir7g9.mongodb.net/merntutorial?retryWrites=true&w=majority"
+  "mongodb+srv://darshana:darshana@cluster0.b4ir7g9.mongodb.net/todo?retryWrites=true&w=majority"
 );
 
 app.listen(3001, () => {
